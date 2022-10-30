@@ -16,17 +16,17 @@ function init() {
   horn.addEventListener('change', (e) => {
     hornSelected = true
     if (e.target.value == 'air-horn'){
-      hornImage.src = 'Lab5_Starter/assets/images/air-horn.svg';
+      hornImage.src = '/assets/images/air-horn.svg';
       hornImage.alt = 'Air horn image selected';
       audio.src = 'assets/audio/air-horn.mp3';
       showConfetti = false;
     } else if (e.target.value == 'car-horn'){
-      hornImage.src = 'Lab5_Starter/assets/images/car-horn.svg';
+      hornImage.src = './assets/images/car-horn.svg';
       hornImage.alt = 'Car horn image selected';
       audio.src = 'assets/audio/car-horn.mp3';
       showConfetti = false;
     } else if (e.target.value == 'party-horn'){
-      hornImage.src = 'Lab5_Starter/assets/images/party-horn.svg';
+      hornImage.src = 'assets/images/party-horn.svg';
       hornImage.alt = 'Party horn image selected';
       audio.src = 'assets/audio/party-horn.mp3';
       showConfetti = true;
